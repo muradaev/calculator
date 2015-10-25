@@ -1,6 +1,6 @@
 Hello, %username%!
 
-I created a calculator with basic functions, including:   
+I created a calculator with the basic functions, including:   
 1. Multiply.    
 2. Add.   
 3. Subtract.    

@@ -4,11 +4,7 @@ using namespace std;
 int main(void) {
 int n;
 double a,b;
-cout << "Enter first number: ";
-cin >> a;
-cout << "Enter second number: ";
-cin >> b;
-cout << "\n" << "Do you want to: \n";
+cout << "Hello, you want to: \n";
 cout << "1. Multiply.\n";
 cout << "2. Add.\n";
 cout << "3. Subtract.\n";
@@ -17,24 +13,29 @@ cout << "5. Square root.\n";
 cout << "6. Percentage.\n";
 cout << "7. Exit.\n\n";
 cin >> n;
+cout << "\nEnter the number: ";
+cin >> a;
+if(n!=5) {
+cout << "Enter second number: ";
+cin >> b; }
 switch(n) {
 case 1: {
-cout << "\n" << "Answer: " << a*b << ".";
+cout << "Answer: " << a*b << ".";
 break; }
 case 2: {
-cout << "\n" << "Answer: " << a+b << ".";
+cout << "Answer: " << a+b << ".";
 break; }
 case 3: {
-cout << "\n" << "Answer: " << a-b << ".";
+cout << "Answer: " << a-b << ".";
 break; }
 case 4: {
-cout << "\n" << "Answer: " << a/b << ".";
+cout << "Answer: " << a/b << ".";
 break;
 case 5: {
-cout << "\n" << "Answer: " << sqrt(a) << " and " << sqrt(b) << ".";
+cout << "Answer: " << sqrt(a) << ".";
 break; }
 case 6: {
-cout << "\n" << "Answer: " << (a*b)/100 << ".";
+cout << "Answer: " << (a*b)/100 << ".";
 break; }
 case 7: {
 break; }

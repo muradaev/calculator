@@ -14,7 +14,7 @@ int main(void)
     cout << "6. Percentage.\n";
     cout << "7. Exit.\n\n";
     cin >> n;
-    cout << "\nEnter the number: ";
+    cout << "\nEnter first number: ";
     cin >> a;
       if(n!=5) 
         {

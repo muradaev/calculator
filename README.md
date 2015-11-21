@@ -8,6 +8,6 @@ I created a calculator with the basic functions, including:
 5. Square root.   
 6. Percentage.    
 
-I implemented a calculator in C++, using the 'switch-case' statement.   
+I implemented this calculator in C++, using the 'switch-case' statement.   
 You might ask, why i'm used 'switch-case' statement?    
 Because, 'switch-case' statement is convenient and concise alternative to the 'if-else' statement.

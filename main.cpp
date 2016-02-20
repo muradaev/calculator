@@ -50,7 +50,7 @@ int main(void)
 		}
 		case 6:
 		{
-			cout << "Answer: " << (a*b)/100 << ".";
+			cout << "Answer: " << a*100/b << ".";
 			break;
 		}
 		case 7:

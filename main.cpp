@@ -4,7 +4,7 @@ using namespace std;
 int main(void)
 {
 	int n;
-	double a,b;
+	double a, b;
 	cout << "Hello, you want to: \n";
 	cout << "1. Multiply.\n";
 	cout << "2. Add.\n";
@@ -16,41 +16,41 @@ int main(void)
 	cin >> n;
 	cout << "\nEnter first number: ";
 	cin >> a;
-	if(n!=5)
+	if (n != 5)
 	{
 		cout << "Enter second number: ";
 		cin >> b;
 	}
-	switch(n)
+	switch (n)
 	{
 		case 1:
 		{
-			cout << "Answer: " << a*b << ".";
+			cout << "Answer: " << a * b << ".";
 			break;
 		}
 		case 2:
 		{
-			cout << "Answer: " << a+b << ".";
+			cout << "Answer: " << a + b << ".";
 			break;
 		}
 		case 3:
 		{
-			cout << "Answer: " << a-b << ".";
+			cout << "Answer: " << a - b << ".";
 			break;
 		}
 		case 4:
 		{
-			cout << "Answer: " << a/b << ".";
+			cout << "Answer: " << a / b << ".";
 			break;
 		}
 		case 5:
 		{
-			cout << "Answer: " << sqrt(a) << ".";
+			cout << "Answer: " << sqrt (a) << ".";
 			break;
 		}
 		case 6:
 		{
-			cout << "Answer: " << a*100/b << ".";
+			cout << "Answer: " << a * 100 / b << ".";
 			break;
 		}
 		case 7:
